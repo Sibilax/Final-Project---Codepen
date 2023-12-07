@@ -1,0 +1,29 @@
+/* The footer stylesheet contains the styles to be applied to the bottom section of the page */
+.footer {
+    width: 100%; /* determines the width of th footer */
+    background-color: black; /* determines the background color of the footer */
+    height: 14vh; /* determines the height of the footer */
+}
+
+.footer-wrapper {
+    height: 50px; /* determines the height of the footer buttons*/
+    display: grid; /* we use grid to : */
+    grid-template-columns: repeat(4,1fr); /* Create four columns of the same size */
+    text-align: center; /* center the text within the columns */
+}
+
+.codepen-for {
+    color: white; /* determines the color of the text */
+    font-size: 1.2em; /* determines the size of the text*/
+}
+
+.bold-text {
+    font-family: 'Noto', sans-serif; /* determines the type of font to be used in this section and the backup font */
+    font-size: 1.5em; /* determines the size of the text in capital letters */
+    color:white; /* determines the color of the text in capital letters */
+}
+
+
+
+
+

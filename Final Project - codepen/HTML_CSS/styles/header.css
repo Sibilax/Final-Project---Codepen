@@ -1,0 +1,16 @@
+/* The header stylesheet contains the styles corresponding to the top section of the page*/
+.header {
+    background-color: black; /* determines the background color of the header */
+    color: white; /* determines the color of the text */
+    width:100%; /* determines the width of the header */
+    height: 12vh; /* determines the height of the header */
+    display: flex; /* felx is used to: */
+    align-items: center; /* center the items in the header vertically */
+    justify-content: space-between; /* separate the items as much as possible */
+}
+
+.header > .explore-navbar > .explore {
+    color: #f4e17f; /* determines the color of the text */
+    font-size: 0.4em; /* determines the size of the text */
+    margin-left: 5px; /*used to align the EXPLORE heading to the navbar links */
+}

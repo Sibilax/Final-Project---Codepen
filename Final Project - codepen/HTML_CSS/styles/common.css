@@ -1,0 +1,8 @@
+/* The common stylesheet contains the styles which will apply to the entire page, unless overridden by other styles*/
+
+body {
+    margin: 0; /* eliminates the default margin value of 8 */
+    padding: 0px; /* eliminates any possible space around the element's content */
+    width: 100%;  /* determines the width of the page */
+    font-family: 'Lato', sans-serif; /* determines the font to be used and the backup font */
+}

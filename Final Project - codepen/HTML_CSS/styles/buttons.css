@@ -1,0 +1,92 @@
+/* The buttons stylesheet contains the styles to be applied to the buttons on the page */
+.header-buttons {
+    font-size: 0.5em; /* determines the size of the text */
+    display:flex; /* flex is used to display the items in one row */
+    align-items: flex-end; /* aligns the items at the end of the container*/
+    gap: 15px; /* determines the space between the buttons */
+    transform: 0.3s; /* determines the duration of the hover property*/
+}
+
+.header-buttons > .header-btn > button:hover{
+    background-color: #4e505a; /* determines the color the buttons will chage to */
+}
+
+.create-btn {
+    background-color:#36383F; /*background color of the button*/
+    color: white; /* color of the text */
+    border-radius: 2px; /* radius of the corners to make them more rounded */
+    border:none; /* prevents any possible borders */
+    font-size: 2em; /* determines the size of the text */
+    font-weight: 600; /* determines how bold the text will be */
+    padding: 13px 15px; /* space around the text */
+}
+
+.log-in-btn {
+    background-color:#36383F; /*background color of the button*/
+    color: white; /* color of the text */ 
+    border-radius: 2px; /* radius of the corners to make them more rounded */
+    border:none; /* prevents any possible borders */
+    font-size: 2em; /* size of the text */
+    font-weight: 600; /* determines how bold the text will be */
+    padding: 16px 18px;  /* space around the text */
+}
+
+.sign-up-btn {
+    background-color:#36383F; /*background color of the button*/
+    color: white; /* color of the text */
+    border-radius: 2px; /* radius of the corners to make them more rounded */
+    border:none; /* prevents any possible borders */
+    font-size: 2em; /* size of the text */
+    font-weight: 600; /* determines how bold the text will be */
+    padding: 16px 20px;  /* space around the text */
+}
+
+.content-section-left > .content-section-buttons {
+    display: flex; /* flex is used to display the buttons in a row */
+    justify-content: flex-start; /* places the buttones closer to the left margin */
+    margin-left: -200px; /* determines the distance between the buttons and the left margin */
+    margin-top: 5px; /* determines the distance between the buttons and the top margin */
+}
+
+.content-section-buttons > .green-btn {
+    background-color: #4ec97c; /*background color of the button*/
+    color: black; /* color of the text */
+    font-size: 2em; /* size of the text */
+    font-weight: 900; /* determines how bold the text will be */
+    border-radius: 2px; /* radius of the corners to make them more rounded */
+    border: none; /* prevents any possible borders */
+    padding: 0.3em 0.5em; /* space around the text */
+    margin-top: 15px;  /* determines the distance between the button and the paragraphs */
+    transition: 0.5s; /* determines the duration of the hover property*/
+}
+
+.content-section-buttons > .green-btn:hover{
+    background-color:#2fb45a; /* determines the color the buttons will chage to */
+}
+
+.content-section-buttons > .black-btn {
+    background-color: black; /*background color of the button*/
+    color: white; /* color of the text */
+    font-size: 2em; /* size of the text */
+    font-weight: 900; /* determines how bold the text will be */
+    border-radius: 2px; /* radius of the corners to make them more rounded */
+    border: none; /* prevents any possible borders */
+    padding: 0.3em 0.5em; /* space around the text */
+    margin-top: 15px;  /* determines the distance between the button and the paragraphs */
+    margin-left: 20px;  /* determines the distance between the button and the left margin */
+}
+
+.content-section-buttons > .black-btn:hover{
+    background-color:#111; /* determines the color the buttons will chage to */
+}
+
+.footer-wrapper > button {
+    background-color: #36383f; /*background color of the button */
+    color: white; /* color of the text */
+    border: 1.5px solid #676767; /* sets a border around the button of 1.5px */
+    transition: 0.5s; /* determines the duration of the hover property */
+}
+
+.footer-wrapper > button:hover {
+    background-color: #434343; /* determines the color the buttons will chage to */
+}

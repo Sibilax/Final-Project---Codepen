@@ -1,0 +1,20 @@
+/* The nav stylesheet class contains the styles applied to the navbar. The Spark class has been considered as a link in this case, although it is probably a dropdown button in the original site */
+
+.navbar {
+    width: 800px; /* determines the width of this section */
+    display: flex; /* displays all elements in one row */
+    justify-content: flex-start; /* sets the position of the elements in the row */
+}
+
+/*styles for the links*/
+a {
+    color: white; /* determines the font color */
+    text-decoration: none; /* removes the underline of the links */
+    padding: 5px; /* creates a space between the elements */
+}
+
+/* An Id has been created for the spark class so that different styles could be applied to it*/
+#spark {
+    color:#acacac; /* determines the font color */
+    margin-left: 5px; /* creates a space between the spark Id and the rest of the links */
+}

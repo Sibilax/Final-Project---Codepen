@@ -1,0 +1,26 @@
+/* The icons stylesheet contains the styles to be applied to the icons on the page */
+.header-left-icon {
+    filter: invert(1); /* inverts the colors of the CodePen logo-icon */
+    width: 15%; /* determines the width of the logo-icon */
+    margin-top: 5px; /* distance between the logo-icon and the top margin */
+    margin-left: 15px; /* distance between the logo-icon and the left margin */
+
+    
+}
+
+.search-icon {
+    color: grey; /* color of the icon */
+    font-size: 3em; /* size of the icon */
+    margin-bottom: 10px; /* distance between the icon and the bottom margin */
+    transition: 0.5; /* determines the duration of the hover property*/
+}
+
+.search-icon:hover{
+    color: white; /* color the icon will change to */
+}
+
+.green-icon {
+    color: #2fb45a; /* color of the icon */
+    font-size: 20px; /* size of the icon */
+    margin-left: 8px; /* distance between the icon and the left text */
+}

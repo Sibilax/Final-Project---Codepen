@@ -1,0 +1,84 @@
+/* The main stylesheet contains the styles related to the midsection of the page */
+.main-section {
+    background:radial-gradient(circle farthest-corner at 200px 0, #434752, #000); /* determines the background color of this section */
+    color: white; /* determines the color of the text */
+    width: 100%; /* determines the width of the main section of the page */
+    height: 74vh; /* determines the height of this section of the page */
+    margin-top: 0; /* eliminates the default margin value */
+    display: grid; /* grid is used to: */
+    grid-template-columns: 1fr 1fr; /* create two columns of the same size */
+}
+
+.content-section-left {
+    width: 700px; /* width of the left section of the page */
+    height: 100%; /* height of the left section of the page */
+    display: flex; /* flex is used to: */
+    flex-direction: column; /* position the lements vertically */
+    align-items: center; /* center the text and buttons */
+    justify-content: center; /* align the text from the top */
+    flex-shrink: 0; /* prevents the content in the left section from shrinking when there is not enough space */
+    padding: 48px; /* space around the element's content */
+    margin-left: -20px; /* determines the space between the left section and the left margin  */
+}
+
+.content-section-left > .paragraph-one {
+    font-size: 2.6em; /* size of the text */
+    font-weight: 100; /* determines how light the text will be */
+    line-height: 1.2;  /* used to set the space between the lines of text */
+    margin-bottom: -40px; /* determines the space between the text and the buttons */
+}
+
+.content-section-left > .paragraph-two {
+    color: #b3b3b3; /* color of the text */
+    font-size: 2.2em; /* size of the text */
+    font-weight: 200; /* determines how light the text will be */
+    line-height: 1.2;  /* used to set the space between the lines of text */
+}
+
+.content-section-right { 
+    display: flex; /* flex is used to: */
+    flex-direction: column; /* position the elements vertically */
+    justify-content: center; /*center the elements */
+    position: relative; /* used so that the position:absolute property can be applied properly */
+    flex-shrink: 0;  /* prevents the content in the right section from shrinking when there is not enough space */
+}
+
+.projects-heading {
+    color: white; /* color of the text */
+    font-size: 1.5em; /* size of the text */
+    font-weight: 400; /* determines how bold the text will be */
+    margin-top: -250px; /* determines the space between the heading and the top margin */
+    display: flex; /*flex is used to: */
+    justify-content: flex-end; /* center the heading */
+    margin-right: 300px; /* used to place the heading above the image */
+}
+
+.codepen-projects {
+    color: #76DAFF; /* color of the text */
+    margin-bottom: -200px; /* determines the space between the heading and the bottom margin  */
+}
+
+.main-right-img {
+    transform: scale(0.38); /* scales the image down to 38% */
+    position: absolute; /*used to keep the image in a specific place*/
+    right: -450px; /* determines the distance from the right its container*/
+    height: 90px; /* height of the image */
+}
+
+
+
+
+
+
+
+   
+   
+
+
+    
+
+   
+
+
+
+
